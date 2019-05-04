@@ -7,6 +7,6 @@ Resources available:
 * The merged CSV for language model training: [merged csv](https://drive.google.com/file/d/1pzTOT1trQLfj0F1fabC-dsDfwQwLKmeh/view?usp=sharing)
 * A serialized loader with a corpus of 100M tokens and a vocab size of 60.000 words (we downsample the above file using  `.use_partial_data(p_in_partial_data_pct, seed=42)` with a pct of .25 in the datablock api: [corpus](https://drive.google.com/file/d/1e9hLetLb64pB6eIzgpX7O0-twJhrMWrV/view?usp=sharing)
 * The corresponding itos file (to be used on step 2 and 3 of ULMFiT approach): [itos](https://drive.google.com/file/d/1-HubZtd6oY62S1Z5oR1_aLm4dFoNwTpq/view?usp=sharing)
-* The trained model (47.5 perplexity): [model](https://drive.google.com/file/d/18IGx8RHHKUsIC7xQ-1d_2ZzHRr6_B4hO/view?usp=sharing). With this model we achieved 96.5% accuracy on classifications of sentiment in restaurant reviews.
+* The trained model (26.8 perplexity on validation): [model](https://drive.google.com/file/d/1Bu3HNq_R9ApHeLNfVYABw05wuUIFtujI/view?usp=sharing). With this model we achieved 96.5% accuracy on classifications of sentiment in restaurant reviews.
 
 Work is heavily inspired by https://github.com/tchambon/deepfrench and made with :heart: by Quantyca Analytics Team
