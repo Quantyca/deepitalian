@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Quantyca/deepitalian/master)
 # Italian Language Model for Fast.ai ULMFiT
 This is the repo for the pre-trained Italian Language Model for fast.ai (see ULMFiT models at http://nlp.fast.ai/) , based on Italian wikipedia dump.
 
